@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eurennova - Main</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/problemaDelDia-styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row-col">
+                <nav class="navbar navbar-dark bg-custom fixed-top">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="./main.html">EURENNOVA</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">EURENNOVA MENÚ</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./main.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./problemaDelDia.html">Problema del día</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./solucionGanadora.html">Solución Ganadora</a>
+                            </li>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Buscar</button>
+                        </form>
+                        </div>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <!-- Puntos en movimiento -->
+        <div class="dot" style="left: 10%; top: 20%; animation-duration: 8s;"></div>
+        <div class="dot" style="left: 20%; top: 30%; animation-duration: 12s;"></div>
+        <div class="dot" style="left: 50%; top: 10%; animation-duration: 11s;"></div>
+        <div class="dot" style="left: 70%; top: 50%; animation-duration: 14s;"></div>
+        <div class="dot" style="left: 30%; top: 70%; animation-duration: 7s;"></div>
+        <div class="dot" style="left: 80%; top: 60%; animation-duration: 9s;"></div>
+        <div class="dot" style="left: 40%; top: 80%; animation-duration: 10s;"></div>
+        <div class="dot" style="left: 60%; top: 20%; animation-duration: 15s;"></div>
+        <div class="dot" style="left: 15%; top: 55%; animation-duration: 13s;"></div>
+        <div class="dot" style="left: 5%; top: 75%; animation-duration: 6s;"></div>
+
+            <!-- Sección de la Problemática -->
+        <section class="row-col problematica mt-5">
+            <h2 class="text-center mb-4">Problema: Falta de Visibilidad y Coordinación entre los Diferentes Escaños de la Cadena de Suministro</h2>
+            <div class="text-center">
+                <img src="https://cdn-icons-png.flaticon.com/512/2907/2907254.png" alt="Problema de Visibilidad en la Cadena de Suministro" class="img-fluid">
+            </div>
+            <p class="text-center">Nuestra empresa se enfrenta actualmente a un desafío significativo en nuestra cadena de suministro, marcado por la incapacidad de adaptarnos eficientemente a las fluctuaciones impredecibles en la demanda del mercado. Este problema se ha manifestado en forma de excesos de inventario durante períodos de baja demanda, y escasez de productos cuando los consumidores más los necesitan, afectando directamente nuestra rentabilidad y la satisfacción del cliente. La raíz de este desafío radica en una visibilidad limitada a través de los distintos eslabones de nuestra cadena de suministro y una falta de coordinación efectiva con nuestros socios y proveedores. La importancia de resolver esta problemática es crítica, ya que una cadena de suministro optimizada y ágil no solo nos permitirá reducir costos innecesarios y riesgos de obsolescencia, sino que también mejorará nuestra capacidad para responder rápidamente a las necesidades cambiantes del mercado, asegurando así la lealtad y satisfacción de nuestros clientes. Estamos en busca de soluciones innovadoras y estrategias efectivas que nos permitan superar este desafío y fortalecer nuestra posición en el mercado.</p>
+        </section>
+        <br>
+        <hr>
+        <section class="row-col foro mt-5">
+            <h3 class="text-center mb-4">Foro de Soluciones</h3>
+            <div class="mb-3">
+                <label for="nombreEquipo" class="form-label">Nombre del Equipo:</label>
+                <input type="text" class="form-control" id="nombreEquipo" placeholder="Ingresa el nombre de tu equipo">
+            </div>
+            <div class="mb-3">
+                <label for="descripcionSolucion" class="form-label">Descripción de la Solución:</label>
+                <textarea class="form-control" id="descripcionSolucion" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="archivoSolucion" class="form-label">Subir Archivo de Solución:</label>
+                <input type="file" class="form-control" id="archivoSolucion">
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Enviar Solución</button>
+            </div>
+        </section>
+    </main>
+    <footer class="mt-4">
+        <p>&copy; 2024 Nombre de la Empresa. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
