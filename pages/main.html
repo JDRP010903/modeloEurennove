@@ -20,34 +20,23 @@
                     </button>
                     <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                         <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">EURENNOVA MENÚ</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="./main.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="./problemaDelDia.html">Problema del día</a>
                             </li>
-                            <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./solucionGanadora.html">Solución Ganadora</a>
                             </li>
-                        </ul>
                         <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-success" type="submit">Search</button>
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Buscar</button>
                         </form>
                         </div>
                     </div>
@@ -63,12 +52,16 @@
         <div class="dot" style="left: 50%; top: 10%; animation-duration: 11s;"></div>
         <div class="dot" style="left: 70%; top: 50%; animation-duration: 14s;"></div>
         <div class="dot" style="left: 30%; top: 70%; animation-duration: 7s;"></div>
-        <div class="dot" style="left: 30%; top: 70%; animation-duration: 7s;"></div>
-        <div class="dot" style="left: 30%; top: 70%; animation-duration: 7s;"></div>
-        <div class="dot" style="left: 30%; top: 70%; animation-duration: 7s;"></div>
+        <div class="dot" style="left: 80%; top: 60%; animation-duration: 9s;"></div>
+        <div class="dot" style="left: 40%; top: 80%; animation-duration: 10s;"></div>
+        <div class="dot" style="left: 60%; top: 20%; animation-duration: 15s;"></div>
+        <div class="dot" style="left: 15%; top: 55%; animation-duration: 13s;"></div>
+        <div class="dot" style="left: 5%; top: 75%; animation-duration: 6s;"></div>
+        
+
         <h2>Bienvenido al Equipo 6</h2>
         <h5>Tus compañeros son:</h5>
-        <div class="row row-cols-1 row-cols-md-5 g-4">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4 containerTeam">
             <div class="col">
             <div class="card">
                 <img src="https://cdn-icons-png.freepik.com/512/1077/1077114.png" class="card-img-top p-3" alt="ImagenPerfil">
@@ -167,6 +160,32 @@
                     <p class="card-text">47 años - Gen X</p>
                     <p>Breve Descriçión sobre tu usuario</p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+
+        <div class="row">
+            <h1>CHAT</h1>
+            <div class="chat-container mt-5 p-3 border rounded">
+                <div class="chat-messages p-2" style="height: 300px; overflow-y: scroll;">
+                <!-- Mensajes de ejemplo -->
+                <div class="chat-message mb-2">
+                    <strong>Integrante 1:</strong> ¡Hola equipo!
+                </div>
+                <div class="chat-message mb-2">
+                    <strong>Integrante 2:</strong> ¡Hola! ¿Cómo están todos?
+                </div>
+                <!-- Agrega más mensajes aquí -->
+                </div>
+                <div class="chat-input mt-3">
+                <form>
+                    <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Escribe un mensaje...">
+                    <button class="btn btn-primary" type="button">Enviar</button>
+                    </div>
+                </form>
                 </div>
             </div>
         </div>

@@ -19,6 +19,11 @@ nav .navbar .bg-custom {
     background-color: #004173 !important;
 }
 
+.containerTeam {
+    height: 55VH;
+    overflow: auto;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -36,7 +41,7 @@ footer {
 }
 
 .dot {
-    position: absolute;
+    position: fixed;
     width: 20px;
     height: 20px;
     background-color: #004173;
