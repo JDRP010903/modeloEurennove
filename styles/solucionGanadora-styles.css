@@ -69,6 +69,10 @@ footer {
     }
 }
 
+.bg-custom {
+    background-color: #0979b0;
+    color: #ffffff;
+}
 
 .login-container {
     display: flex;
